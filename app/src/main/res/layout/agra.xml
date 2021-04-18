@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:fitsSystemWindows="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:gravity="center"
+
+        >
+        <LinearLayout
+            android:id="@+id/dob_current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_margin="2dp"
+            >
+            <TextView
+                android:id="@+id/dob_current_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today"
+                android:textColor="#e93333"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12PM"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:textColor="#616161"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/dob_later"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:layout_margin="2dp"
+            >
+            <TextView
+                android:id="@+id/dob_later_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select date"
+                android:textColor="#e93333"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11AM"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:textColor="#616161"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/adult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="30dp"
+            android:layout_margin="2dp"
+            >
+            <TextView
+                android:id="@+id/noofroomss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 Rooms"
+
+                android:textColor="#e93333"
+                />
+            <TextView
+                android:id="@+id/noofadultss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 Adults"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:textColor="#616161"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="10dp">
+            <LinearLayout
+                android:id="@+id/goldentuliplayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="5dp">
+                <TextView
+                    android:id="@+id/goldenname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Courtyard"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="5dp"/>
+                <ss.com.bannerslider.Slider
+                    android:id="@+id/goldentulip"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    />
+
+                <TextView
+                    android:id="@+id/addressgolden"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:textColor="#000"
+                    android:padding="5dp"
+                    android:text="Taj Nagri, Phase II, Fatehbad Road, Taj Ganj, 282001 Agra, India"/>
+                <TextView
+                    android:id="@+id/pricegolden"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="₹6000"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="5dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

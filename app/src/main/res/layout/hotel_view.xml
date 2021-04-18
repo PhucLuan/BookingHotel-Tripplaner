@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/layoutHotel"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/hotelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Courtyard"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+    <ss.com.bannerslider.Slider
+        android:id="@+id/hotelSlider"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
+
+    <TextView
+        android:id="@+id/hotelAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="#000"
+        android:padding="5dp"
+        android:text="Taj Nagri, Phase II, Fatehbad Road, Taj Ganj, 282001 Agra, India"/>
+    <TextView
+        android:id="@+id/priceHotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="₹6000"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+</LinearLayout>

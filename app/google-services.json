@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "23615994531",
+    "firebase_url": "https://demotripplaner-default-rtdb.firebaseio.com",
+    "project_id": "demotripplaner",
+    "storage_bucket": "demotripplaner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23615994531:android:4b230ee9af5b841c899d16",
+        "android_client_info": {
+          "package_name": "com.example.tripplaner_g3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23615994531-4ec7eu533aphp9ije89ojhgpr2plp2to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEGv3QAqWu3Nh5VgRWn-4-HgtpnwP5XXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23615994531-4ec7eu533aphp9ije89ojhgpr2plp2to.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23615994531:android:a23a351cede330e3899d16",
+        "android_client_info": {
+          "package_name": "com.kfstudio.tripplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23615994531-4ec7eu533aphp9ije89ojhgpr2plp2to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEGv3QAqWu3Nh5VgRWn-4-HgtpnwP5XXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23615994531-4ec7eu533aphp9ije89ojhgpr2plp2to.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

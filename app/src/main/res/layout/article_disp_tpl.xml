@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lucknow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imv_photo"
+        android:layout_width="71dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|center_horizontal"
+        app:border_width="1dp" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:paddingTop="0dp"
+        android:text="Caption"
+        android:textAlignment="center"
+        android:textColor="#938f8f" />
+</LinearLayout>
+<!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:paddingBottom="10px">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imv_photo"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_gravity="center"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:paddingBottom="100px"-->
+<!--        android:text="Caption"-->
+<!--        android:textSize="18sp" />-->
+
+<!--</LinearLayout>-->
